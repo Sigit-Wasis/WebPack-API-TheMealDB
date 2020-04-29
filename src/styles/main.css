@@ -1,0 +1,98 @@
+/* =============================
+  Styling CSS Home Page
+  Made in: Sigit wasis subekti
+===============================*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper 
+{
+  margin: 50px auto;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 0 0 40px 2px rgba(37,73,214,0.18);
+}
+
+.feature-box
+{
+  padding: 30px;
+  text-align: center;
+}
+
+#hasil {
+  text-align: center; 
+  padding-bottom: 30px;
+}
+
+.feature-box h2 
+{
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #FF6366;
+}
+
+.feature-box p 
+{
+  margin: 50px auto;
+  color: #555;
+}
+
+.feature-box a 
+{
+  text-decoration: none !important;
+  background: #FF6366;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: 2px solid #FF6366 !important;
+  color: #fff;
+} 
+
+.btn-One 
+{
+  background-color: #FF6366; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-Two
+{
+  background-color: #FF6366; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 990px)
+{
+  img {
+      width: 200px; 
+      height: 200px;
+  }
+
+  .btn-Two {
+    margin-bottom: 5px;
+  }
+
+  .wrapper h5 {
+    font-size: 18px;
+  }
+}
